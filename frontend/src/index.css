@@ -1,27 +1,59 @@
 
-.TopBar{
+
+
+.MenuBar{
   display: flex; 
   height: 100vh; 
-    /* position: fixed;  */
+  position: fixed;
   margin-bottom: 30px;
+  left: 0px;
+  top: 60px;
 }
 
 .sidebar {
   background-color: black;
 }
 
+.sidebar .collapsed{
+  width: 80px;
+  min-width: 80px;
+}
+
 .sidebar2 {
   background-color: black;
-  left: 1000px;
-  bottom: 700px;
+  
 }
 .CommunityBar {
   display: flex;
-  height: 100vh;
-}
+  height: 60vh;
+  position: fixed;
+  top: 100px;
+  left: 1100px;
+} 
 
-.title {
+.sidebar-heading {
   margin-top: 3px;
   margin-bottom: 50px;
   font-size: 30px;  
 }
+
+.sidebar-button{
+  position:absolute;
+  right: 0px;
+  bottom: 550px;
+  
+}
+
+img {
+  display: flex;
+  margin-right: 3px;
+  padding-bottom: 50px;
+}
+
+.imageDiv {
+  position: absolute;
+  left:500px;
+  padding-bottom: 50px;
+}
+
+

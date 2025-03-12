@@ -1,60 +1,37 @@
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Sidebar, Menu, SubMenu, MenuItem} from 'react-pro-sidebar'
+import MenuSideBar from './components/SideBars/sidebar'
+import CommunitySideBar from './components/SideBars/CommunityBar'
+import Posts from './components/RedditPost/Posts'
 
 function App() {
 
   return (
     <>
-   <div className='TopBar'>
-      <Sidebar className='sidebar'> 
-          <Menu>
-            <MenuItem className='title'>
-             item 1 
-            </MenuItem>
-            <MenuItem className='eg'>
-              Item 2
-            </MenuItem>
-            <MenuItem>
-              Item 3
-            </MenuItem>
-            <MenuItem>
-              Item 4
-            </MenuItem>
-            <MenuItem>
-              Item 5
-            </MenuItem>
-          </Menu>
-          
-      </Sidebar>
+   
+      <MenuSideBar/>
+      <CommunitySideBar/>
+      <div>
+        <Posts/>
       </div>
-      
-      <div className='CommunityBar'>
-      
-        <Sidebar className='sidebar2'>
-          <Menu>
-            <MenuItem>
-              Communities
-            </MenuItem>
-            <MenuItem>
-              Examples
-            </MenuItem>
-            <MenuItem>
-              Examples
-            </MenuItem>
-            <MenuItem>
-              Examples
-            </MenuItem>
-            <MenuItem>
-              Examples
-            </MenuItem>
-
-          </Menu>
-        </Sidebar>
+      <div className='imageDiv'>
+      <img src={reactLogo}/>
+        <img src={reactLogo}/>
+        <img src={reactLogo}/>
+        <img src={reactLogo}/>
+        <img src={reactLogo}/>
+        <img src={reactLogo}/>
+        <img src={reactLogo}/>
+        <img src={reactLogo}/>
+        <img src={reactLogo}/>
+        <img src={reactLogo}/>
+        <img src={reactLogo}/>
+        <img src={reactLogo}/>
+        <img src={reactLogo}/>
+        <img src={reactLogo}/>
+        <img src={reactLogo}/>
       </div>
-      
 
     </>
   )
