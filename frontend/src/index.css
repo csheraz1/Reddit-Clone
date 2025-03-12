@@ -1,0 +1,27 @@
+
+.TopBar{
+  display: flex; 
+  height: 100vh; 
+    /* position: fixed;  */
+  margin-bottom: 30px;
+}
+
+.sidebar {
+  background-color: black;
+}
+
+.sidebar2 {
+  background-color: black;
+  left: 1000px;
+  bottom: 700px;
+}
+.CommunityBar {
+  display: flex;
+  height: 100vh;
+}
+
+.title {
+  margin-top: 3px;
+  margin-bottom: 50px;
+  font-size: 30px;  
+}
