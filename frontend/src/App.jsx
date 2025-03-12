@@ -4,6 +4,7 @@ import './App.css'
 import MenuSideBar from './components/SideBars/sidebar'
 import CommunitySideBar from './components/SideBars/CommunityBar'
 import Posts from './components/RedditPost/Posts'
+import NavBar from './components/NavBar'
 
 function App() {
 
@@ -12,26 +13,10 @@ function App() {
    
       <MenuSideBar/>
       <CommunitySideBar/>
-      <div>
+      
         <Posts/>
-      </div>
-      <div className='imageDiv'>
-      <img src={reactLogo}/>
-        <img src={reactLogo}/>
-        <img src={reactLogo}/>
-        <img src={reactLogo}/>
-        <img src={reactLogo}/>
-        <img src={reactLogo}/>
-        <img src={reactLogo}/>
-        <img src={reactLogo}/>
-        <img src={reactLogo}/>
-        <img src={reactLogo}/>
-        <img src={reactLogo}/>
-        <img src={reactLogo}/>
-        <img src={reactLogo}/>
-        <img src={reactLogo}/>
-        <img src={reactLogo}/>
-      </div>
+     
+      
 
     </>
   )

@@ -1,13 +1,16 @@
 import Post from './Post'
+import {images} from './sampleImages'
 
 export default function Posts(){
-    const arr = new Array(10)
+    const arr = images
     return (
-        <div>
+        <div className="Posts">
             {
-                arr.map(() => {<Post/>})
+                arr.map((ImageURL, i) => { 
+                    return <Post key={i} URL={ImageURL}/>
+               })
             }
-             <p>hello</p>
+            
         </div>
        
     )

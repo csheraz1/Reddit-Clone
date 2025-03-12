@@ -1,13 +1,13 @@
 
+import logo from "../../assets/react.svg"
 
-
-export default function Post() {
+export default function Post(ImageURL) {
+    
     return(
-        <div>
-            <p>
-                
-            </p>
-            <img/>
+        <div className="Post">
+            
+            <img src={ImageURL.URL} className="Post-Image"/>
+            
             <button>Like</button>
             <button>Comment</button>
             <button>Share</button>
