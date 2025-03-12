@@ -1,2 +1,5 @@
-# Reddit Clone
-Reddit Clone with  react frontend and SPRING MVC backend. 
+## Reddit Clone
+
+# Instructions
+cd ./frontend
+npm run dev
