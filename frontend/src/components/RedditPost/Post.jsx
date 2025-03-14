@@ -7,10 +7,11 @@ export default function Post(ImageURL) {
         <div className="Post">
             
             <img src={ImageURL.URL} className="Post-Image"/>
-            
-            <button>Like</button>
-            <button>Comment</button>
-            <button>Share</button>
+            <div className="Like-Comment-Share">
+                <button>Like</button>
+                <button>Comment</button>
+                <button>Share</button>
+            </div>
         </div>
     )
 }

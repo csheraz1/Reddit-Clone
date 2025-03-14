@@ -40,28 +40,35 @@
 .sidebar-button{
   position:absolute;
   right: 0px;
-  bottom: 550px;
+  top: 70px;
+  
+}
+.Like-Comment-Share{
+  position: relative;
+  left:0px;
   
 }
 
 .Post-Image{
-  position:absolute;   
+  position:relative;   
   top: 0px;
-  resize: both;
-  left: 250px;
-  width: 720px;
+  width: 400px;
   height: 300px;
 }
 
 .Post{
   position: relative;
-  margin-bottom: 30px;
-  padding-top: 300px;
-  padding-bottom: 50px;
+  width: 400px;
+  height: 400px;
+
+  margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 .Posts{
-  position:relative;
+  position:absolute;
+  width: 600px;
+  left: 380px;
 }
 
 
