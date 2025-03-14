@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-@RestController
 @SpringBootApplication
 public class BackendApplication {
 
@@ -14,10 +13,7 @@ public class BackendApplication {
 		SpringApplication.run(BackendApplication.class, args);
 	}
 
-	@GetMapping("/")
-	public String hello() {
-		return "hello";
-	}
+	
 	
 
 }

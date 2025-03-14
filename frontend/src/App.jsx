@@ -5,16 +5,17 @@ import MenuSideBar from './components/SideBars/sidebar'
 import CommunitySideBar from './components/SideBars/CommunityBar'
 import Posts from './components/RedditPost/Posts'
 import NavBar from './components/NavBar'
+import { useState, useEffect } from 'react';
 
 function App() {
-
+ 
   return (
     <>
    
       <MenuSideBar/>
       <CommunitySideBar/>
       
-        <Posts/>
+      <Posts/>
      
       
 
