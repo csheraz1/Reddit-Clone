@@ -1,0 +1,38 @@
+.Navigation-Bar{
+    position: fixed;
+    top:0;
+    left:0px;
+    width: 100vw;
+    height: 100px;
+    background-color: darkblue;
+}
+.Logo{
+    position: absolute;
+    left:10px;
+    top:30px;
+}
+
+.Login{
+    left:1150px;
+    border-radius: 20px;
+    position:absolute;
+}
+
+.login-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: coral;
+}
+
+.Register{
+    left:1250px;
+    position:absolute;
+}
+
+.register-button{
+    background-color: coral;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
